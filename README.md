@@ -1,3 +1,5 @@
+Well, basically I just used **AdminLTE** template so I left it just like this
+
 Introduction
 ============
 
