@@ -1,0 +1,1 @@
+SELECT tbl_user.nis, tbl_user.nama, tbl_kelas.nama_kelas as kelas, tbl_user.jk, tbl_absensi.tgl FROM tbl_user INNER JOIN tbl_kelas ON tbl_user.id_kelas = tbl_kelas.id_kelas LEFT JOIN tbl_absensi ON tbl_user.nis = tbl_absensi.nis AND tbl_absensi.tgl = curdate() GROUP BY tbl_user.nama;
